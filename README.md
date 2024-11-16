@@ -13,4 +13,4 @@ Bem-vindo ao **Site de Culinária**, um projeto desenvolvido para compartilhar r
 ## 🚀 Como Executar o Projeto
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/site-culinaria.git
+   https://github.com/Sra-Estela/projeto_design_web.git
