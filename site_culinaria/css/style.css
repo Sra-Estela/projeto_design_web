@@ -1,29 +1,29 @@
 * {
-	margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-	width: 100dvw;
-	height: 100dvh;
-	margin: 0px auto;
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0px auto;
 }
 .container {
-	width: 100vw;
+    width: 100vw;
 }
 .cabecalho {
-	margin: 0px auto;
+    margin: 0px auto;
 }
 .menu {
-	display: flex;
+    display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
 .conteudo {
-	padding: 40px 20px 20px 20px;
+    padding: 40px 20px 20px 20px;
 }
 .opcoes {
-	height: 60px;
+    height: 60px;
     width: 1250px;
     display: flex;
     flex-direction: row;
@@ -33,72 +33,72 @@ body {
     align-items: center;
 }
 .opcao {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 .pesquisa {
-	padding: 8px;
-	border: 1px solid rgba(128, 128, 128, 0.377);
-	border-radius: 100px;
-	background-color: rgba(128, 128, 128, 0.096);
+    padding: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    border-radius: 100px;
+    background-color: rgba(128, 128, 128, 0.096);
 }
 .logomarca {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-	gap: 450px;
-	padding: 20px;
+    gap: 450px;
+    padding: 20px;
 }
 .logomarca > .icons {
-	display: inline-flex;
-	gap: 10px;
+    display: inline-flex;
+    gap: 10px;
 }
 i.bi {
     font-size: 1.5em;
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 .logo {
-	display: inline-flex;
-	flex-direction: column;
-	align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 }
 .banner {
-	height: 420px;
-	background-image: url('../imgs/banner.png');
-	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: center;
-	display: flex;
+    height: 420px;
+    background-image: url('../imgs/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .visu {
-	width: 500px;
-	height: 320px;
-	font-size: 34px;
-	margin-left: 150px;
+    width: 500px;
+    height: 320px;
+    font-size: 34px;
+    margin-left: 150px;
 }
 .visu > h1 {
-	margin: 20px 20px 20px 20px;
-	color: white;
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: #2e0f07;
+    margin: 20px 20px 20px 20px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #2e0f07;
 }
 .visu > .botoes {
-	margin: 25px 20px 20px 20px;
+    margin: 25px 20px 20px 20px;
 }
 .receitas {
-	width: 1308px;
-	height: 300px;
-	gap: 20px;
-	display: flex;
-	padding: 20px;
-	background-color: gainsboro;
+    width: 1308px;
+    height: 300px;
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    background-color: gainsboro;
 }
 .receitas > .receita {
-	width: 200px;
+    width: 200px;
     height: 260px;
     background-color: grey;
     display: flex;
@@ -107,81 +107,81 @@ i.bi {
     align-items: center;
 }
 .rec1 {
-	background-image: url('../imgs/prato1.png');
-	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: center;
+    background-image: url('../imgs/prato1.png');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
 }
 .rec2 {
-	background-image: url('../imgs/prato2.png');
-	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: center;
+    background-image: url('../imgs/prato2.png');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
 }
 .rec3 {
-	background-image: url('../imgs/prato3.png');
-	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: center;
+    background-image: url('../imgs/prato3.png');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
 }
 .rec4 {
-	background-image: url('../imgs/prato4.png');
-	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: center;
+    background-image: url('../imgs/prato4.png');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
 }
 .rec5 {
-	background-image: url('../imgs/prato5.png');
-	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: center;
+    background-image: url('../imgs/prato5.png');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
 }
 .rec6 {
-	background-image: url('../imgs/prato6.png');
-	background-repeat: no-repeat;
-	background-size: 100%; 
-	background-position: center;
+    background-image: url('../imgs/prato6.png');
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
 }
 .pratos {
-	padding: 8px 25px 8px 25px;
-	background-color: rgb(101, 140, 153);
-	border: 1px solid rgb(58, 81, 88);
-	border-radius: 80px;
-	cursor: pointer;
-	color: white;
-	font-weight: bolder;
+    padding: 8px 25px 8px 25px;
+    background-color: rgb(101, 140, 153);
+    border: 1px solid rgb(58, 81, 88);
+    border-radius: 80px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
 }
 .receita > a {
-	margin: 20px;
+    margin: 20px;
 }
 @media only screen and (max-width: 1350px) {
-	.receitas {
-		width: 117.5rem;
-		height: 24rem;
-	}
-	.receitas > .receita {
-		width: 150rem;
-		height: 21.5rem;
-	}
+    .receitas {
+        width: 117.5rem;
+	height: 24rem;
+    }
+    .receitas > .receita {
+	width: 150rem;
+	height: 21.5rem;
+    }
 }
 .botao {
-	padding: 8px 25px 8px 25px;
-	background-color: rgb(101, 140, 153);
-	border: 1px solid rgb(58, 81, 88);
-	border-radius: 80px;
-	cursor: pointer;
-	color: white;
-	font-weight: bolder; /* Fazer um commite <feat> com um `:rouver`  */
+    padding: 8px 25px 8px 25px;
+    background-color: rgb(101, 140, 153);
+    border: 1px solid rgb(58, 81, 88);
+    border-radius: 80px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder; /* Fazer um commite <feat> com um `:rouver`  */
 }
 .exemplo {
-	width: 1305px;
-	height: 400px;
-	background-color: grey;
-	display: flex;
+    width: 1305px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
 }
 .foto {
-	width: 640px;
-	height: 360px;
-	background-color: rgb(80, 80, 80);
-	margin: 20px;
+    width: 640px;
+    height: 360px;
+    background-color: rgb(80, 80, 80);
+    margin: 20px;
 }
