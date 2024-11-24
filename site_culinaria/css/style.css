@@ -173,3 +173,15 @@ i.bi {
 	color: white;
 	font-weight: bolder; /* Fazer um commite <feat> com um `:rouver`  */
 }
+.exemplo {
+	width: 1305px;
+	height: 400px;
+	background-color: grey;
+	display: flex;
+}
+.foto {
+	width: 640px;
+	height: 360px;
+	background-color: rgb(80, 80, 80);
+	margin: 20px;
+}
