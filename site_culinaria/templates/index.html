@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Receitas</title>
+    <title>Mesa&Arte</title>
     <link rel="stylesheet" href="../css/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <div class="menu">
+    <div class="menu" id="menu">
         <div class="opcoes">
-            <a href="" class="opcao">Demons</a>
-            <a href="" class="opcao">Features</a>
-            <a href="" class="opcao">Basics</a>
-            <a href="" class="opcao">Chiden</a>
-            <a href="" class="opcao">Easy</a>
-            <a href="" class="opcao">About</a>
-            <a href="" class="opcao">Contact</a>
+            <a href="" class="opcao">Home</a>
+            <a href="" class="opcao">Receitas</a>
+            <a href="" class="opcao">Dicas</a>
+            <a href="" class="opcao">Blog</a>
+            <a href="" class="opcao">Sobre</a>
+            <a href="" class="opcao">Contato</a>
         </div>
     </div>
     <div class="container">
@@ -30,8 +29,8 @@
                     <a href="https://www.youtube.com/" class="icon"><i class="bi bi-youtube"></i></a>
                 </div>
                 <div class="logo">
-                    <h1>Cook&Meal</h1>
-                    <p>Recipes and Food</p>
+                    <h1>Mesa&Arte</h1>
+                    <p>Pratos e Cenários</p>
                 </div>
                 <a href="">
                     <button class="pesquisa"><i class="bi bi-search"></i></button>
@@ -39,7 +38,7 @@
             </div>
             <div class="banner">
                 <div class="visu">
-                    <h1>Spicy Serrano Pineapple Margarita</h1>
+                    <h1>Penne ao Jardim Italiano</h1>
 
                     <div class="botoes">
                         <a href=""><button class="botao b1">CATEGORY</button></a>
@@ -52,45 +51,81 @@
 
         <br>
 
-        <div class="conteudo">
-            <div class="receitas">
-                <div class="receita rec1">
-                    <a href=""><button class="pratos p1">PARTO 1</button></a>
-                </div>
-                <div class="receita rec2">
-                    <a href=""><button class="pratos p2">PARTO 2</button></a>
-                </div>
-                <div class="receita rec3">
-                    <a href=""><button class="pratos p3">PARTO 3</button></a>
-                </div>
-                <div class="receita rec4">
-                    <a href=""><button class="pratos p4">PARTO 4</button></a>
-                </div>
-                <div class="receita rec5">
-                    <a href=""><button class="pratos p5">PARTO 5</button></a>
-                </div>
-                <div class="receita rec6">
-                    <a href=""><button class="pratos p6">PARTO 6</button></a>
+        <div class="conteudo" id="apresentacao">
+            <div class="apresentacao">
+                <h1>Bem-vindos ao Mesa&Arte!</h1>
+                <br>
+                <p>
+                    O site <strong>Mesa&Arte</strong> é um espaço dedicado a trazer inspiração para sua cozinha, com receitas que combinam sabores incríveis, ingredientes selecionados e modos de preparo detalhados. Aproposta é ajudar você a criar pratos perfeitos para os cenários ideais, seja um jantar especial, um almoço descontraído ou até mesmo uma refeição prática com um toque gourmet.  
+                </p>
+                <br>
+                <p>
+                    Com foco em culinária internacional e receitas refinadas, <strong>Mesa&Arte</strong> busca transformar cada momento à mesa em algo memorável, sem complicações desnecessárias. Aqui, o objetivo é apresentar opções que vão do simples ao sofisticado, sempre com dicas claras para que cada preparo seja um sucesso.
+                </p>  
+                <br>
+                <p>
+                    Descubra receitas que combinam sabor e praticidade, ideais para todas as ocasiões. Explore, cozinhe e transforme sua mesa em uma verdadeira obra de arte!  
+                    <strong>Bon appétit!</strong>
+                </p> <!-- Apresentação para o Site "Mesa&Arte" -->
+            </div>
+            <br>
+            <div class="p_receits" id="receitas">
+                <h1>Receitas:</h1>
+                <div class="receitas">
+                    <div class="receita rec1">
+                        <a href=""><button class="pratos p1">PARTO 1</button></a>
+                    </div>
+                    <div class="receita rec2">
+                        <a href=""><button class="pratos p2">PARTO 2</button></a>
+                    </div>
+                    <div class="receita rec3">
+                        <a href=""><button class="pratos p3">PARTO 3</button></a>
+                    </div>
+                    <div class="receita rec4">
+                        <a href=""><button class="pratos p4">PARTO 4</button></a>
+                    </div>
+                    <div class="receita rec5">
+                        <a href=""><button class="pratos p5">PARTO 5</button></a>
+                    </div>
+                    <div class="receita rec6">
+                        <a href=""><button class="pratos p6">PARTO 6</button></a>
+                    </div>
                 </div>
             </div>
     
             <br>
     
-            <div class="exemplo">
-                <div class="foto">
-                    <p class="p1">NEW</p>
-                    <p class="p2">Recipes</p>
-                </div>
-                <div class="info">
-                    <a href=""><button>ABOUT BLOG</button></a>
+            <div class="indicacao" id="indicacao">
+                <h1 class="destaque">Indicação:</h1>
+                <div class="exemplo" id="exemplo">
+                    <div class="foto">
+                        <div class="nome">
+                            <p class="pr1">NOVA</p>
+                            <p class="pr2">Receita</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h1>* Lasanha à Bolonhesa</h1>
+                        <br>
+                        <p>A lasanha à bolonhesa é um prato que merece ser saboreado em cenários especiais. Imagine degustá-la em uma noite romântica à luz de velas, com vista para o rio Tiber em Roma. Ou em uma reunião familiar em uma villa italiana, rodeado por paisagens verdejantes. Outra opção seria em um jantar íntimo em um restaurante elegante, com música clássica ao fundo. Ou ainda, em uma noite fria de inverno, ao lado da lareira, com um copo de vinho tinto. Qualquer cenário escolhido, certamente será uma experiência gastronômica inesquecível!</p>
+                        <br>
+                        <a href=""><button>PREPARO ▶</button></a>
+                    </div>
                 </div>
             </div>
     
             <br>
-    
-            <div class="rodape">
-                <h1>- Fresh and Spicy -</h1>
-                <p>Exclusive recipes</p>
+        </div>
+        <div class="rodape" id="rodape">
+            <div class="parte1">
+                <h1>- Contemple e Saboreie -</h1>
+                <p>Dicas de ouro para sua mesa</p>
+            </div>
+            <div class="parte2">
+                <a href="#menu">Menu</a><br>
+                <a href="#apresentacao">Apresentação</a><br>
+                <a href="#receitas">Receitas</a><br>
+                <a href="#indicacao">Indicação</a>
             </div>
         </div>
     </div>

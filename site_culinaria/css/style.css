@@ -20,7 +20,18 @@ body {
     align-items: center;
 }
 .conteudo {
-	padding: 40px 20px 20px 20px;
+	padding: 20px;
+}
+.apresentacao {
+	width: 1315px;
+	background-color: rgba(105, 105, 105, 0.37);
+	padding: 20px;
+	text-align: justify; /* Define o texto no modo justificado. */
+	margin-bottom: 20px;
+}
+.apresentacao p {
+	font-size: 1.5rem;
+	margin: 5px;
 }
 .opcoes {
 	height: 60px;
@@ -31,6 +42,7 @@ body {
     gap: 25px;
     border-bottom: 2px solid rgba(128, 128, 128, 0.507);
     align-items: center;
+	padding-left: 90px;
 }
 .opcao {
 	text-decoration: none;
@@ -95,12 +107,13 @@ i.bi {
 	gap: 20px;
 	display: flex;
 	padding: 20px;
-	background-color: gainsboro;
+	background-color: rgba(220, 220, 220, 0);
+	margin: 0px 0px 20px 0px;
 }
 .receitas > .receita {
 	width: 200px;
     height: 260px;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -154,6 +167,30 @@ i.bi {
 .receita > a {
 	margin: 20px;
 }
+.p1 {
+	background-color: rgb(101, 115, 153);
+	border: 1px solid rgb(58, 67, 88);
+}
+.p2 {
+	background-color: rgb(153, 101, 101);
+	border: 1px solid rgb(88, 58, 58);
+}
+.p3 {
+	background-color: rgb(153, 152, 101);
+	border: 1px solid rgb(88, 86, 58);
+}
+.p4 {
+	background-color: rgb(101, 153, 101);
+	border: 1px solid rgb(60, 88, 58);
+}
+.p5 {
+	background-color: rgb(130, 101, 153);
+	border: 1px solid rgb(77, 58, 88);
+}
+.p6 {
+	background-color: rgb(172, 92, 161);
+	border: 1px solid rgb(88, 58, 83);
+}
 @media only screen and (max-width: 1350px) {
 	.receitas {
 		width: 117.5rem;
@@ -166,8 +203,8 @@ i.bi {
 }
 .botao {
 	padding: 8px 25px 8px 25px;
-	background-color: rgb(101, 140, 153);
-	border: 1px solid rgb(58, 81, 88);
+	background-color: rgb(1, 53, 151);
+	border: 1px solid rgb(0, 22, 63);
 	border-radius: 80px;
 	cursor: pointer;
 	color: white;
@@ -176,12 +213,86 @@ i.bi {
 .exemplo {
 	width: 1305px;
 	height: 400px;
-	background-color: grey;
+	background-color: rgba(128, 128, 128, 0.192);
 	display: flex;
 }
 .foto {
 	width: 640px;
 	height: 360px;
-	background-color: rgb(80, 80, 80);
+	background-image: url('../imgs/prato_foto.png');
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-position: center;
 	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.info {
+	width: 650px;
+	height: 360px;
+	background-color: rgba(55, 59, 58, 0);
+	margin: 20px 20px 20px 0px;
+	padding: 30px;
+}
+.nome {
+	width: 150px;
+	height: 50px;
+	background-color: white;
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	font-weight: bold;
+}
+.nome > .pr1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4d2513;
+}
+.info > a > button {
+	margin: 20px 0px 0px 410px;
+	padding: 8px 25px 8px 25px;
+	background-color: rgb(101, 140, 153);
+	border: 1px solid rgb(58, 81, 88);
+	border-radius: 80px;
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+}
+.info > h1 {
+	font-size: 3.5rem;
+}
+.info > p {
+	font-size: 18px;
+	text-align: justify; /* Define o texto no modo justificado. */
+	text-indent: 2em; /* Define o recuo da primeira linha. */
+}
+.rodape {
+	background-color: #491b0f;
+	height: 320px;
+	padding: 40px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+    gap: 150px;
+}
+.rodape h1 {
+	color: white;
+	font-size: 3rem;
+}
+.rodape p {
+	color: white;
+	font-size: 2rem;
+}
+.rodape a {
+	font-size: 2rem;
+}
+.p_receits {
+	font-size: 1.5rem;
+}
+.destaque {
+	font-size: 3rem;
+	margin-bottom: 20px;
 }
