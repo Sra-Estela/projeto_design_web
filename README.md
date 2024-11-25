@@ -1,6 +1,6 @@
 # 🍳 Site de Culinária
 
-Bem-vindo ao **Site de Culinária**, um projeto desenvolvido para compartilhar receitas deliciosas, dicas de cozinha e técnicas culinárias para todos os níveis de habilidade. Este site é totalmente focado na interface, com design atrativo e acessível.
+Bem-vindo ao **Mesa&Arte**, um projeto desenvolvido para compartilhar receitas deliciosas, dicas de cozinha e técnicas culinárias para todos os níveis de habilidade. Este site é totalmente focado na interface, com design atrativo e acessível.
 
 ## 📋 Funcionalidades
 - 🥗 **Receitas Diversas**: Categorias como pratos principais, sobremesas, entradas e bebidas.
