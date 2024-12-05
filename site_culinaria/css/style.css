@@ -23,7 +23,7 @@ body {
 	padding: 20px;
 }
 .apresentacao {
-	width: 1315px;
+	width: 97dvw;
 	background-color: rgba(105, 105, 105, 0.37);
 	padding: 20px;
 	text-align: justify; /* Define o texto no modo justificado. */
@@ -191,16 +191,6 @@ i.bi {
 	background-color: rgb(172, 92, 161);
 	border: 1px solid rgb(88, 58, 83);
 }
-@media only screen and (max-width: 1350px) {
-	.receitas {
-		width: 117.5rem;
-		height: 24rem;
-	}
-	.receitas > .receita {
-		width: 150rem;
-		height: 21.5rem;
-	}
-}
 .botao {
 	padding: 8px 25px 8px 25px;
 	background-color: rgb(1, 53, 151);
@@ -295,4 +285,27 @@ i.bi {
 .destaque {
 	font-size: 3rem;
 	margin-bottom: 20px;
+}
+@media only screen and (min-width: 1760px) {
+	.receitas {
+		width: 108.6rem;
+		height: 24rem;
+	}
+	.receitas > .receita {
+		width: 150rem;
+		height: 21.5rem;
+	}
+	.apresentacao {
+		width: 1720px;
+	}
+	.exemplo {
+		width: 1715px;
+	}
+	.info {
+		width: 950px;
+		margin: 20px 20px 20px 20px;
+	}
+	.info > h1 {
+		font-size: 5.5rem;
+	}
 }

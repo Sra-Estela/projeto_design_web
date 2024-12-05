@@ -1,0 +1,11 @@
+.conteudo {
+    width: 100dvw;
+    height: 150dvh;
+    background-color: cornflowerblue;
+    padding: 30px;
+}
+.box_dica {
+    width: 95.5dvw;
+    height: 60dvh;
+    background-color: purple;
+}

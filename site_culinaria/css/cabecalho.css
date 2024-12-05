@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	width: 100dvw;
+	height: 100dvh;
+	margin: 0px auto;
+}
+.cabecalho {
+    width: 100dvw;
+    height: 10dvh;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.menu {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+}
+.pesquisa {
+	border: 1px solid rgba(128, 128, 128, 0.377);
+    border-radius: 100px;
+}
+.pesquisa > a > button {
+	padding: 8px;
+	border: 1px solid rgba(128, 128, 128, 0.377);
+	border-radius: 100px;
+	background-color: rgba(128, 128, 128, 0.096);
+}
+i.bi {
+    font-size: 1.5em;
+	text-decoration: none;
+	color: black;
+}
+.opcoes {
+	height: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+	padding-left: 90px;
+}
+.opcao {
+	text-decoration: none;
+	color: black;
+}
