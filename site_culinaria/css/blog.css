@@ -23,3 +23,31 @@
     background-color: teal;
     margin: 10px;
 }
+.rodape {
+	background-color: #491b0f;
+    width: 100dvw;
+	height: 200px;
+	padding: 40px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+    gap: 100px;
+    bottom: 0;
+}
+.rodape h1 {
+	color: white;
+	font-size: 3rem;
+}
+.rodape p {
+	color: white;
+	font-size: 2rem;
+}
+.rodape a {
+	font-size: 2rem;
+}
+.parte1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

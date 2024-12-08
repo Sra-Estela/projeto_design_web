@@ -1,11 +1,57 @@
+.container {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgb(0, 255, 242);
+}
 .conteudo {
     width: 100dvw;
-    height: 150dvh;
+    height: 90dvh;
     background-color: cornflowerblue;
     padding: 30px;
 }
 .box_dica {
-    width: 95.5dvw;
-    height: 60dvh;
+    width: 95dvw;
+    height: 55dvh;
     background-color: purple;
+    display: flex;
+}
+.box_curso {
+    width: 50dvw;
+    height: 50dvh;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.box_img {
+    width: 50dvw;
+    height: 50dvh;
+    background-color: mediumseagreen;
+    margin: 20px 20px 20px 0px;
+}
+.rodape {
+	background-color: #491b0f;
+    width: 100dvw;
+	height: 200px;
+	padding: 40px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+    gap: 100px;
+    bottom: 0;
+}
+.rodape h1 {
+	color: white;
+	font-size: 3rem;
+}
+.rodape p {
+	color: white;
+	font-size: 2rem;
+}
+.rodape a {
+	font-size: 2rem;
+}
+.parte1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -8,6 +8,10 @@ body {
 	height: 100dvh;
 	margin: 0px auto;
 }
+.container {
+    background: rgba(121, 118, 118, 0);
+    position: relative;
+}
 .cabecalho {
     width: 100dvw;
     height: 10dvh;
@@ -24,6 +28,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 350px;
+}
+.menu .logo {
+    font-family: 'Times New Roman', Times, serif;
 }
 .pesquisa {
 	border: 1px solid rgba(128, 128, 128, 0.377);

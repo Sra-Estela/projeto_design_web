@@ -1,6 +1,6 @@
 .container {
     width: 100dvw;
-    height: 400dvh;
+    height: 300dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@
     display: flex;
     gap: 30px;
     padding: 40px;
-    background-color: darkcyan;
+    background-color: white;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -49,4 +49,110 @@
     font-size: 15px;
     background-color: rgba(47, 79, 79, 0);
     padding: 10px;
+}
+.rodape {
+	background-color: #491b0f;
+    width: 100dvw;
+	height: 200px;
+	padding: 40px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+    gap: 100px;
+    bottom: 0;
+}
+.rodape h1 {
+	color: white;
+	font-size: 3rem;
+}
+.rodape p {
+	color: white;
+	font-size: 2rem;
+}
+.rodape a {
+	font-size: 2rem;
+}
+.parte1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box .i1 {
+    background-image: url('../imgs/bife.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} 
+.box .i2 {
+    background-image: url('../imgs/blubary.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;    
+} 
+.box .i3 {
+    background-image: url('../imgs/cafe.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} 
+.box .i4 {
+    background-image: url('../imgs/cuscuz.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} 
+.box .i5 {
+    background-image: url('../imgs/fritas.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} 
+.box .i6 {
+    background-image: url('../imgs/gergelim.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} 
+.box .i7 {
+    background-image: url('../imgs/hamburguer.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} 
+.box .i8 {
+    background-image: url('../imgs/macarrao.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} 
+.box .i9 {
+    background-image: url('../imgs/naggets.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} 
+.box .i10 {
+    background-image: url('../imgs/ratatuile.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.box .i11 {
+    background-image: url('../imgs/sobremesa.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.box .i12 {
+    background-image: url('../imgs/torta.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.banner {
+    background-image: url('../imgs/banner(1).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }

@@ -1,1 +1,66 @@
-ECHO est  ativado.
+.conteudo {
+    width: 100dvw;
+    height: 390px;
+    margin: 25px 0px 25px 0px;
+    display: flex;
+}
+.box_b {
+    width: 96.5dvw;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.my_ph {
+    width: 350px;
+    height: 350px;
+    background-image: url('../imgs/perfil.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px 0px 45px;
+}
+.biografia {
+    width: 800px;
+    height: 350px;
+    margin: 0px 25px 0px 25px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.rodape {
+	background-color: #491b0f;
+	height: 200px;
+	padding: 40px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+    gap: 100px;
+    bottom: 0;
+}
+.rodape h1 {
+	color: white;
+	font-size: 3rem;
+}
+.rodape p {
+	color: white;
+	font-size: 2rem;
+}
+.rodape a {
+	font-size: 2rem;
+}
+.parte1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
