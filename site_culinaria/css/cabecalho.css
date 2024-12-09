@@ -57,7 +57,27 @@ i.bi {
     align-items: center;
 	padding-left: 90px;
 }
+.opcoes .opcao:hover {
+    background-color: rgba(128, 128, 128, 0.274);
+    padding: 5px;
+}
+.opcoes .opcao:focus {
+    background-color: rgba(128, 128, 128, 0.479);
+    padding: 5px;
+}
+.opcoes .opcao:active {
+    background-color: rgba(128, 128, 128, 0.479);
+    padding: 5px;
+}
 .opcao {
 	text-decoration: none;
 	color: black;
+}
+.selecionado {
+    background-color: #4CAF50; /* cor de fundo quando selecionado */
+    color: white; /* cor do texto quando selecionado */
+}
+.opcao.active {
+    background-color: rgba(129, 129, 129, 0.514);
+    padding: 5px;
 }
