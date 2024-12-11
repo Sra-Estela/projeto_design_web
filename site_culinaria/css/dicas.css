@@ -1,41 +1,48 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	width: 100dvw;
+	height: 100dvh;
+	margin: 0px auto;
+}
 .container {
     width: 100dvw;
-    height: 100dvh;
-    background-color: rgb(0, 255, 242);
+    height: 10dvh;
 }
 .conteudo {
     width: 100dvw;
-    height: 100dvh;
+    height: 900px;
     background-color: cornflowerblue;
-    padding: 30px;
+    padding: 35px 80px 35px 80px;
 }
-.box_dica {
-    width: 95dvw;
-    height: 70dvh;
-    background-color: purple;
+.content {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.content h1 {
+    font-size: 60px;
     display: flex;
+    justify-content: center;
 }
-.box_curso {
-    width: 70dvw;
-    height: 50dvh;
-    background-color: rgb(255, 255, 255);
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.box_img {
-    width: 50dvw;
-    height: 10rem;
+.image-placeholder {
+    float: right;
+    width: 400px;
+    height: 300px;
     background-image: url('../imgs/dicas.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    float: right;
-    margin: 0 0 10px 10px;
-    max-width: 200px; /* Tamanho máximo da imagem */
-    height: auto; /* Preserva as proporções */
-    display: block;
+    border: 1px solid #aaa; /* Borda para destacar a div */
+    margin: 0 0 10px 10px; /* Espaçamento entre a "imagem" e o texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #555;
 }
 .rodape {
 	background-color: rgb(51, 51, 51);
@@ -64,4 +71,78 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.menu-toggle {
+    display: none;
+}
+.menu {
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    .opcoes {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding-left: 0;
+    }
+
+    .opcoes .opcao {
+        font-size: 1rem;
+    }
+
+    .conteudo {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .image-placeholder {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .rodape {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .rodape h1 {
+        font-size: 1.5rem;
+    }
+
+    .rodape p {
+        font-size: 1rem;
+    }
+}
+/* Ocultar menu e exibir botão no mobile */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .opcoes {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        background: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    .opcoes.active {
+        display: flex;
+    }
+    .pesquisa {
+        display: none;
+    }
 }
