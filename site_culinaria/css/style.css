@@ -284,29 +284,6 @@ i.bi {
 	font-size: 3rem;
 	margin-bottom: 20px;
 }
-@media only screen and (min-width: 1760px) {
-	.receitas {
-		width: 108.6rem;
-		height: 24rem;
-	}
-	.receitas > .receita {
-		width: 150rem;
-		height: 21.5rem;
-	}
-	.apresentacao {
-		width: 1720px;
-	}
-	.exemplo {
-		width: 1715px;
-	}
-	.info {
-		width: 950px;
-		margin: 20px 20px 20px 20px;
-	}
-	.info > h1 {
-		font-size: 5.5rem;
-	}
-}
 .opcoes .opcao:hover {
     background-color: rgba(128, 128, 128, 0.274);
     padding: 5px;
@@ -333,4 +310,34 @@ i.bi {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-  }
+}
+@media only screen and (min-width: 1708px) {
+	.receitas {
+		width: 106.7rem;
+		height: 24rem;
+	}
+	.receitas > .receita {
+		width: 150rem;
+		height: 21.5rem;
+	}
+	.apresentacao {
+		width: 1688.5px;
+	}
+	.exemplo {
+		width: 1690px;
+	}
+	.info {
+		width: 950px;
+		margin: 20px 20px 20px 20px;
+	}
+	.info > h1 {
+		font-size: 5.5rem;
+	}
+	.parallax {
+		height: 520px; /* Altura da tela cheia */
+		background-size: cover;
+	}
+	.rodape {
+		width: 100%;
+	}
+}

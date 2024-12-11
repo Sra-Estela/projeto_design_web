@@ -156,3 +156,25 @@
     background-size: 100%;
     background-position: center;
 }
+@media only screen and (min-width: 1708px) {
+    .box {
+        width: 580px;
+        height: 400px;
+        background-color: rgb(216, 221, 205);
+        display: flex;
+        padding: 5px;
+    }
+    .box .img {
+        width: 380px;
+        height: 380px;
+        background-color: rgba(255, 255, 255, 0);
+        margin: 5px;
+    }
+    .box .msg {
+        width: 430px;
+        font-size: 22px;
+        background-color: rgba(47, 79, 79, 0);
+        padding: 10px;
+        text-align: justify;
+    }
+}
