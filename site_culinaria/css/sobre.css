@@ -30,7 +30,7 @@
     margin: 0px 25px 0px 25px;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 28px;
+    font-size: 23px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +38,7 @@
     text-align: justify;
 }
 .rodape {
-	background-color: #491b0f;
+	background-color: rgb(51, 51, 51);
 	height: 200px;
 	padding: 40px;
 	display: flex;

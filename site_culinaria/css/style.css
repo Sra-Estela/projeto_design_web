@@ -77,7 +77,7 @@ i.bi {
 	align-items: center;
 }
 .banner {
-	height: 420px;
+	height: 390px;
 	background-image: url('../imgs/banner.png');
 	background-repeat: no-repeat;
 	background-size: 100%; 
@@ -192,13 +192,11 @@ i.bi {
 	border: 1px solid rgb(88, 58, 83);
 }
 .botao {
-	padding: 8px 25px 8px 25px;
-	background-color: rgb(1, 53, 151);
-	border: 1px solid rgb(0, 22, 63);
-	border-radius: 80px;
-	cursor: pointer;
+	padding: 8px 20px 8px 20px;
 	color: white;
+	background-color: rgba(0, 255, 255, 0);
 	font-weight: bolder; /* Fazer um commite <feat> com um `:rouver`  */
+	border: 1px solid rgba(0, 0, 0, 0);
 }
 .exemplo {
 	width: 1305px;
@@ -259,7 +257,7 @@ i.bi {
 	text-indent: 2em; /* Define o recuo da primeira linha. */
 }
 .rodape {
-	background-color: #491b0f;
+	background-color: rgb(51, 51, 51);
 	height: 320px;
 	padding: 40px;
 	display: flex;
@@ -329,3 +327,10 @@ i.bi {
     background-color: rgba(129, 129, 129, 0.514);
     padding: 5px;
 }
+.parallax {
+	height: 420px; /* Altura da tela cheia */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }

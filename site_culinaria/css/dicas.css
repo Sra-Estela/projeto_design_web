@@ -5,30 +5,40 @@
 }
 .conteudo {
     width: 100dvw;
-    height: 90dvh;
+    height: 100dvh;
     background-color: cornflowerblue;
     padding: 30px;
 }
 .box_dica {
     width: 95dvw;
-    height: 55dvh;
+    height: 70dvh;
     background-color: purple;
     display: flex;
 }
 .box_curso {
-    width: 50dvw;
+    width: 70dvw;
     height: 50dvh;
     background-color: rgb(255, 255, 255);
     margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .box_img {
     width: 50dvw;
-    height: 50dvh;
-    background-color: mediumseagreen;
-    margin: 20px 20px 20px 0px;
+    height: 10rem;
+    background-image: url('../imgs/dicas.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    float: right;
+    margin: 0 0 10px 10px;
+    max-width: 200px; /* Tamanho máximo da imagem */
+    height: auto; /* Preserva as proporções */
+    display: block;
 }
 .rodape {
-	background-color: #491b0f;
+	background-color: rgb(51, 51, 51);
     width: 100dvw;
 	height: 200px;
 	padding: 40px;
