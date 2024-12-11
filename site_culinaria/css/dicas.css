@@ -15,7 +15,7 @@ body {
 .conteudo {
     width: 100dvw;
     height: 900px;
-    background-color: cornflowerblue;
+    background-color: rgb(243, 245, 153);
     padding: 35px 80px 35px 80px;
 }
 .content {
