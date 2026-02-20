@@ -13,4 +13,4 @@ Bem-vindo ao **Mesa&Arte**, um projeto desenvolvido para compartilhar receitas d
 ## 🚀 Como Executar o Projeto
 1. Clone o repositório:
    ```bash
-   https://github.com/Sra-Estela/projeto_design_web.git
+   git clone https://github.com/Sra-Estela/projeto_design_web.git
